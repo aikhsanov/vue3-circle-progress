@@ -310,7 +310,9 @@ export default {
             clearInterval(counter);
           }
         } else {
-          currentPercent.value -= 1;
+          if (currentPercent.value - 1 >= 0) {
+            currentPercent.value -= 1;
+          }
           if (currentPercent.value <= to) {
             clearInterval(counter);
           }
