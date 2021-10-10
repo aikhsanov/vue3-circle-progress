@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "private": false,
   "main": "./dist/circle-progress.umd.min.js",
+  "files":["./dist/", "./dist/circle-progress.umd.min.js"],
   "description": "A circular progressbar component for Vue 3, built with SVG and extensively customizable",
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name circle-progress ./src/entry.js",
+    "prepare": "npm run build",
     "lint": "vue-cli-service lint"
   },
   "keywords": [
