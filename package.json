@@ -3,7 +3,6 @@
   "version": "1.0.6",
   "private": false,
   "main": "./dist/circle-progress.umd.min.js",
-  "files": ["dist"],
   "description": "A circular progressbar component for Vue 3, built with SVG and extensively customizable",
   "repository": {
     "type": "git",
